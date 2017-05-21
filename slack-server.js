@@ -81,14 +81,12 @@ now.setTimezone("Europe/London");
         slack.webhook({
         channel: "#server-uptime",
         username: "Server:",
-        icon_emoji: "http://www.wonderfulwebsites.ie/phorest-logo.png",
+        icon_emoji: "http://4.bp.blogspot.com/-mYCTaPOu-60/VK98X5CJEyI/AAAAAAAAApM/0oplbclvnUY/s1600/unnamed.png",
         text: " " + "\n" + 
             "*" + sname + " * " + "\n" +
             "Status: " + bo + "\n" +
             now + "\n" +
-            "Check the status here: " + urls + "\n" +
-            "http://status.phorest.com/" +
-             "\n" +  JSON.stringify(bod)
+            "Check the status here: " + urls + "\n" 
             
         }, function(err, response) {      
         console.log(response);
